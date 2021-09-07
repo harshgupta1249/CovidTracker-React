@@ -8,7 +8,7 @@ const Cards = ({ data : { confirmed, recovered, deaths, lastUpdate }} ) => {
     if(!confirmed){
         return 'Loading...';
     }
-
+// using material ui
     return ( 
         <div className={styles.container}>
             <Grid container spacing={3} justify="center">
@@ -37,10 +37,7 @@ const Cards = ({ data : { confirmed, recovered, deaths, lastUpdate }} ) => {
                     <Typography color="textSecondary">REAL DATA</Typography>
                     <Typography variant="body2">Deaths caused by COVID-19</Typography>
                 </CardContent>
-                </Grid>
-                   
-
-
+                </Grid> 
             </Grid>
         </div>
      );
