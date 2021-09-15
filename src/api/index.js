@@ -20,8 +20,8 @@ export const fetchData = async (country) => {
       deaths,
       lastUpdate,
     };
-    console.log(modifiedData);
     return modifiedData;
+
   } catch (error) {
     console.log(error);
   }
@@ -52,4 +52,4 @@ export const fetchCountries = async () => {
   }catch (error) {
     console.log(error);
   }
-}
+};
